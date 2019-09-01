@@ -33,6 +33,9 @@ public class HelloMqComsumer {
             }
         });
 
+
+
+//        System.in.read(); activeMq5.15以后要这一句话，5.15前是开启一个线程监听，而5.15以后则使用后台线程线程监听
 //        consumer.close();
 //        session.close();
 //        connection.close();

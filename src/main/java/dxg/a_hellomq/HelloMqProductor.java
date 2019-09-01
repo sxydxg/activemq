@@ -21,7 +21,6 @@ public class HelloMqProductor {
         TextMessage textMessage = session.createTextMessage("你好啊！");//创建一个文本消息
         producer.send(textMessage); //发送消息 （这里可以发送多条消息）
 
-
 //        关闭资源
         producer.close();
         session.close();
